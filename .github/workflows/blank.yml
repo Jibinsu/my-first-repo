@@ -38,3 +38,7 @@ jobs:
       # list directories 
       - name: list dir
         run: ls -al 
+      
+      #run script
+      - name: run script
+        run: bash ./script.sh
